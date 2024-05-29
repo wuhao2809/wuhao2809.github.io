@@ -1,9 +1,29 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel = "stylesheet" type="text/css" href="index.css" />
+</head>
 <body>
-  <h1>Hao Wu</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <header class="header">
+    <h1 class="main-title">This is <span class = "name">Hao Wu</span></h1>
+    <h2 class="second-title">Welcome to my homepage!</h2>
+  </header>
+  <nav class="menu">
+    <ul class = "menu-items">
+      <li><a href="./education.html">Education</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./work-experience.html">Work Experience</a></li>
+      <li><a href="./skill.html">Skill</a></li>
+    </ul>
+  </nav>
+  <section class="button-section">
+    <button id="selfie-button" class="button-85" role="button">You want to see me? You definitely do!</button>
+    <div id="selfie-section" class="selfie-section"></div>
+    <button id="background-button" class="button-89">You want to see magnificant view of nature?</button>
+  </section>
+  <script src="./index.js"></script>
 </body>
-
 </html>
